@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="John Snow" />
+    <meta name="description" content="Site perso" />
+    <title>Personal Web</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+<nav id ="navbar">
+  <!-- Logo du festival -->
+  <img src="assets\images\logo.png" alt="Logo du festival" width="200" height="100">
+
+  <!-- Liste de navigation -->
+  <ul>
+    <li class="whitelink"><a href="#infos">Infos pratiques</a></li>
+    <li><a href="#programmation">La Prog</a></li>
+    <li class="yellowlink"><a href="billetterie.html">Billetterie</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<section id="accueil">
+    <video autoplay muted loop>
+        <source src="assets/video/festival.mp4" type="video/mp4">
+    </video>
+    <div class="contenu">
+        <h1>Rendez-vous les 10, 11 et 12 juillet à Lyon</h1>
+        <button onclick="window.location.href='#programmation'">Programme -> </button>
+        <button onclick="window.location.href='billetterie.html'">Billetterie -> </button>
+    </div>
+</section>
+<section id="programmation">
+    <h3>Découvre la Programmation 2026</h3>
+    <ul>
+    <li><img src="assets/images/artists/billie-eilish.jpg" alt="Billie Eilish" width="200"></li>
+    <li><img src="assets/images/artists/damso.jpg" alt="Damso" width="200"></li>
+    <li><img src="assets/images/artists/louane.jpg" alt="Louane" width="200"></li>
+    <li><img src="assets/images/artists/stromae.jpg" alt="Stromae" width="200"></li>
+    <li><img src="assets/images/artists/riles.jpg" alt="Riles" width="200"></li>
+    <li><img src="assets/images/artists/aya.jpg" alt="Aya Nakamura" width="200"></li>
+</ul>
+<button onclick="window.location.href='#programmation'">Toute la Prog'</button>
+</section>
+<section id="info">
+
+    <h2>Infos pratiques</h2>
+
+    <div class="bloc">
+        <h3>Adresses, date et horaires</h3>
+        <p>Le festival se déroulera au parc de la Tête d'Or à Lyon, du 10 au 12 juillet 2026. Les portes s'ouvriront à 14h chaque jour et les concerts débuterons à 16h.</p>
+    </div>
+
+    <div class="bloc">
+        <h3>Accès au festival</h3>
+        <p>Navettes depuis Part-Dieu et Perrache.</p>
+    </div>
+
+    <div class="bloc">
+        <h3>Tarifs</h3>
+        <p>30€ la journée, 70€ les 3 jours. Des tarifs réduits pour les étudiants et les groupes de plus de 10 personnes</p>
+    </div>
+
+</section>
+<footer>
+    <p>Contact</p>
+    <p>&copy; 2026 Meteopop. Tous droits réservés</p>
+</footer>
+  </body>
+</html>
