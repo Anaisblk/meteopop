@@ -146,3 +146,40 @@ footer p:first-child {
     font-weight: bold; 
     font-size: 20px;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-contact {
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-contact input,
+.form-contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-contact button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7b2cbf; /* mauve */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-contact button:hover {
+    background-color: #5a189a;
+}
