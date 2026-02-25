@@ -80,22 +80,32 @@ button {
 
 #programmation ul {
     display: grid;
-    grid-template-columns: repeat(3, 200px); /* 3 colonnes fixes */
-    justify-content: center; /* centre toute la grille */
-    gap: 30px; /* espace entre images */
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 40px;
     list-style: none;
     padding: 0;
+}
+
+#programmation li {
+    text-align: center; /* centre le nom sous l’image */
+    font-weight: bold;
+    color: #7b2cbf; /* mauve stylé */
+    font-size: 25px;
 }
 
 #programmation img {
     width: 200px;
     height: 250px;
     object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
 #programmation img:hover {
     transform: scale(1.05);
-    transition: 0.3s;
 }
 button {
     display: block;
@@ -134,4 +144,5 @@ footer {
 footer p:first-child {
     color: red;
     font-weight: bold; 
+    font-size: 20px;
 }
