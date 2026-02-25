@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact - Meteopop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Contact</h1>
-    <p>Ici tu mets ton formulaire de contact ou tes infos.</p>
+
+<h1>Contactez-nous</h1>
+
+<form action="#" method="post" class="form-contact">
+
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="sujet">Sujet :</label>
+    <input type="text" id="sujet" name="sujet">
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+
 </body>
 </html>
